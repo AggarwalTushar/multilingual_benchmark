@@ -7,6 +7,6 @@ python src/counter_factual_gen.py --model $MODEL
 
 
 # Perform evaluations for the given model
-python src/eval.py --model $MODEL --data factual_recall
-python src/eval.py --model $MODEL --data incontext_recall
-python src/eval.py --model $MODEL --data counter_factual
+python src/llm_eval.py --model $MODEL --data factual_recall
+python src/llm_eval.py --model $MODEL --data incontext_recall
+python src/llm_eval.py --model $MODEL --data counter_factual
